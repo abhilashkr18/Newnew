@@ -360,8 +360,7 @@ Aur haan... comeback hamara bhi hoga 😎✨</p>
 
         <!-- BOX 12: ENLARGED SPIN WHEEL GAME -->
         <div class="box" id="box-12">
-            <h2 class="calligraphy-gold" style="font-size: 1.3rem;">Sach bolun? Tmhari tareef krna thoda unfair h, kyunki tmhe jitna describe karne ki koshish krta hu, words utne hi chhote lagne lgte h 😭✨
-Tumhari smile mein ek alag hi sukoon h, aur tmhari personality mein woh simplicity h jo bina kisi effort ke attention kheench leti h. Tum bas pretty nhi ho, tumhari presence hi achhi lgti hai🙏</h2>
+            <h2 class="calligraphy-gold" style="font-size: 1.3rem;">You are always best</h2>
             <div class="wheel-container-lg" id="wheel-disc">
                 <p class="calligraphy-gold" id="wheel-text" style="color:#fff; font-size:1.4rem;">SPIN ME!</p>
             </div>
@@ -493,7 +492,7 @@ Tumhari smile mein ek alag hi sukoon h, aur tmhari personality mein woh simplici
             const resText = document.getElementById('quiz-res');
             if(optNum === 3) {
                 document.getElementById(`opt-${optNum}`).classList.add('correct');
-                resText.innerText = "[EDIT HERE: Right Answer Response Text! 🎉]";
+                resText.innerText = "Aapne 1st answer yeh click kiya tha to aap meri bestie ho ji aur phle galat kiya tha to bhi aap meri bestie ho bs aap busy ho gyi h 🙏";
             } else {
                 document.getElementById(`opt-${optNum}`).classList.add('wrong');
                 resText.innerText = "Wrong choice! Try again... ❌";
@@ -509,7 +508,8 @@ Tumhari smile mein ek alag hi sukoon h, aur tmhari personality mein woh simplici
             const wheel = document.getElementById('wheel-disc');
             wheel.style.transition = "transform 2s ease-out";
             wheel.style.transform = "rotate(1080deg)";
-            setTimeout(() => { document.getElementById('wheel-text').innerText = "[EDIT HERE: Wheel Result]"; }, 2000);
+            setTimeout(() => { document.getElementById('wheel-text').innerText = "Sach bolun? Tmhari tareef krna thoda unfair h, kyunki tumhe jitna describe karne ki koshish karta hu, words utne hi chhote lgne lagte h😭✨
+Tmhari smile mein ek alag hi sukoon h ji, aur tumhari personality mein woh simplicity h jo bina kisi effort ke attention kheench leti h...Tum bas pretty nhi ho, tumhari presence hi achhi lagti h"; }, 2000);
         }
     </script>
 </body>
